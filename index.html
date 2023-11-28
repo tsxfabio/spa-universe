@@ -4,15 +4,33 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=devicewidth, initial-scale=1.0" />
     <title>SPA Universe</title>
+    <link rel="stylesheet" href="./styles/global.css" />
   </head>
   <body>
-    <head>
+    <div class="heading">
+      <img src="./assets/icons/spa-universe-icon.svg" alt="SPA Universe Icon" />
       <nav>
-        <a href="/">Home</a>
-        <a href="/universo">O universo</a>
-        <a href="/exploracao">Exploração</a>
+        <a href="/" onclick="navigate()" data-route="/" class="nav-link"
+          >Home</a
+        >
+        <a
+          href="/universo"
+          onclick="navigate()"
+          data-route="/universo"
+          class="nav-link"
+          >O Universo</a
+        >
+        <a
+          href="/exploracao"
+          onclick="navigate()"
+          data-route="/exploracao"
+          class="nav-link"
+          >Exploração</a
+        >
       </nav>
-    </head>
-    <h1>Welcome to my website!</h1>
+    </div>
+    <main id="app"></main>
+
+    <script src="./js/router.js" type="module"></script>
   </body>
 </html>

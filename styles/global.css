@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+p {
+  color: #e1e1e6;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+.heading {
+  display: flex;
+  gap: 2rem;
+  width: 100vw;
+  padding: 3rem 0px 3rem 4.5rem;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: #c4c4cc;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+nav .active {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.content-container {
+  max-width: 648px;
+  margin-left: 6rem;
+}
+
+.home {
+  margin: 0 auto;
+  margin-top: 8rem;
+  text-align: center;
+}

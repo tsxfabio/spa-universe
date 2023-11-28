@@ -1,0 +1,25 @@
+body {
+  background-image: url("../assets/images/mountains-universe-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: transparent;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  font-weight: 700;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: #02799d;
+}
